@@ -98,11 +98,10 @@ h2 {
         padding:2px;
     }
 }
-.caption {
+.animePhoto {
     border: 6px rgb(152, 182, 226) solid;
-    width: 70%;
+    width: 80%;
     margin-left: 40px;
-    margin-right: 40px;
     height: 400px;
     background-image: url(../../Photos/Anime\ Collage.webp);
     background-repeat: no-repeat;
@@ -111,30 +110,32 @@ h2 {
     margin-top: 40px;
     display: inline-block;
 }
-.outside {
+#Photo1 {
     border: 6px rgb(152, 182, 226) solid;
-    width: 90%;
-    margin-left: 40px;
-    margin-right: 40px;
-    height: 400px;
-    display: flex;
-}
-.inside {
-    border: 6px rgb(152, 182, 226) solid;
-    width: 37%;
-    margin-left: 30%;
-    margin-right: 10%;
-    height: 170px;
-    margin: 40px 81px 30px 40px;
-    display: inline-flex;
-    background-image: url("./assets/Blue\ stripes.png");
+    width: 30%;
+    margin: 10px;
+    height: 200px;
+    background-image: url(../../Photos/Onepiece.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
     opacity: .7;
-}
-.FormatColumn {
+    margin-top: 40px;
+    display: flex;
+    display: inline-block;
     flex-direction: column;
-    width: 100%;
+    
 }
-#h {
-    font-size: 15px;
-    margin-top: 30px;
+#Photo2 {
+    border: 6px rgb(152, 182, 226) solid;
+    width: 30%;
+    margin: 10px;
+    height: 200px;
+    background-image: url(../../Photos/AttackonTitan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .7;
+    margin-top: 40px;
+    display: flex;
+    display: inline-block;
+    flex-direction: column;
 }
